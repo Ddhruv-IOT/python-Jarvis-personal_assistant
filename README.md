@@ -24,12 +24,13 @@ Jarvis is a personal assistant written in python 3.
 - "help" or "man" to get some guidance.
 - "stop" or "quit" to exit.
 
-## Live Demo Video:
-
+## Demo Video: 
+https://youtu.be/K3utthJaocY
 
 ## Futures scope:
 - currently, I am adding threading to it, so the program dosen't stop when an app is launched.
 - More commands can be added.
+- Voice based input can be added.
 - Support for other operating systems (as it is designed for windows only).
 - Artificial Intelligence can be added to provide the functionality to find the apps installed on OS and automatically add them to the menu. 
  
