@@ -2,22 +2,25 @@ import pyttsx3
 import os
 import datetime
 import webbrowser
+
 print("************ASSISTANT************")
 pyttsx3.speak("Hello this is Jarvis your assistant")
-pyttsx3.speak("Please enter your name To let us serve you better ")
+pyttsx3.speak("Please enter your name to let us serve you better ")
+
 name = input("Your Name please: ")
+
 print("If you are new to this app then type man or help")
 
 hour = int(datetime.datetime.now().hour)
 
 if hour >= 0 and hour < 12:
-    greetings = "Good Morning"+ name + ",How may I help you ? "
+    greetings = "Good Morning " + name + " ,How may I help you ? "
 
 elif hour >= 12 and hour < 18:
-    greetings = "Good Afternoon"+ name + ",How may I help you ? "   
+    greetings = "Good Afternoon " + name + " ,How may I help you ? "   
 
 else:
-    greetings = "Good Evening"+ name + ",How may I help you ? "  
+    greetings = "Good Evening " + name + " ,How may I help you ? "  
       
 
 pyttsx3.speak(greetings)
@@ -26,7 +29,7 @@ Assistant_on = True
 
 while Assistant_on:
     pyttsx3.speak("What can I help you with ?")
-    command = input("How may I help you? ").lower()
+    command = input("How may I help you ? ").lower()
     print("")
     
     if "open chrome" in command or "run chrome" in command or "chrome" in command:
@@ -97,4 +100,3 @@ while Assistant_on:
     else:
         pyttsx3.speak("Sorry, this command is not supported at the moment")
         
-            
