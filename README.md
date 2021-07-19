@@ -30,7 +30,7 @@ Jarvis is a personal assistant written in python 3.
 ## Detailed Article:
 [Link to Article](https://www.linkedin.com/feed/update/urn:li:ugcPost:6702185191353434112?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28*%2Curn%3Ali%3AugcPost%3A6702185191353434112%29)
 
-## Futures scope:
+## Future scope:
 - currently, I am adding threading to it, so the program dosen't stop when an app is launched.
 - More commands can be added.
 - Voice based input can be added.
